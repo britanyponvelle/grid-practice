@@ -1,14 +1,22 @@
 @import 'global/color';
 @import 'global/typography';
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body {
   background: $white;
   color: $black;
+  display: block;
 }
 
 .wrapper {
-    width: 800px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+}
+
+// Large break point
+@media (min-width: 900px) {
+	.wrapper {
+		max-width: 900px;
+		margin: auto;
+	}
 }
