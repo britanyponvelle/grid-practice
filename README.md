@@ -1,6 +1,6 @@
-Grid Practice
+Typography Practice
 ---
 
-The purpose of this project is to practice building grids in the browser, play with Flex box, and other fun things.
+The purpose of this project is to practice responsive typography, using ems and modular type scales, and media queries. 
 
-View this page here: http://britanyponvelle.github.io/grid-practice/
+View this page here: http://britanyponvelle.github.io/typography-practice/
