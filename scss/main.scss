@@ -7,6 +7,11 @@ body {
   display: block;
 }
 
+section {
+	width: 100%;
+	 padding: 2em 2em;
+}
+
 .wrapper {
     width: 100%;
     padding: 1em;
@@ -18,5 +23,12 @@ body {
 	.wrapper {
 		max-width: 900px;
 		margin: auto;
+	}
+}
+
+.dark-blue {
+	background: $blue;
+	p {
+		color: $white;
 	}
 }
