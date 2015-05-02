@@ -4,31 +4,41 @@
 body {
   background: $white;
   color: $black;
-  display: block;
+}
+
+// BODY
+.main {
+	padding: 1em 0;
+}
+.wrapper {
+	padding: 1em;
+	width: 100%;
+}
+
+
+// Sections
+
+.dark-blue {
+	background: $blue;
+	width: 100%;
+	p {
+		color: $white;
+	}
 }
 
 section {
 	width: 100%;
-	 padding: 2em 2em;
+	padding: 2em 2em;
 }
 
-.wrapper {
-    width: 100%;
-    padding: 1em;
-    margin: auto;
-}
 
-// Large break point
-@media (min-width: 900px) {
+// STUPID LARGE DESKTOP BREAKPOINT
+@media (min-width: 700px) {
 	.wrapper {
-		max-width: 900px;
-		margin: auto;
+		margin: 0 auto;
 	}
-}
-
-.dark-blue {
-	background: $blue;
-	p {
-		color: $white;
+	.main .wrapper {
+		width: 760px;
+		//padding-top: 0;
 	}
 }
