@@ -18,17 +18,10 @@ body {
 
 // Sections
 
-.dark-blue {
-	background: $blue;
+.top-block {
 	width: 100%;
-	p {
-		color: $white;
-	}
-}
-
-section {
-	width: 100%;
-	padding: 2em 2em;
+	height: 100px;
+	background-color: $rust;
 }
 
 
