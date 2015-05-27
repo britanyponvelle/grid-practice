@@ -22,23 +22,53 @@ body {
 	width: 100%;
 	height: 100px;
 	background-color: $rust;
+	margin: 1em;
 }
 .bottom-block {
 	width: 100%;
 	height: 100px;
 	background-color: $teal;
+	margin: 1em;
 }
-.left-block {
-	width: 50%;
-	height: 100px;
-	background-color: $gray;
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
 }
-.right-block {
-	width: 50%;
-	height: 100px;
-	background-color: $blue;
-	float: right;
+		
+ 
+.flex-full-col {
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
 }
+		
+ .left-block {
+    width: 50%;
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color: $gray;
+	margin: 1em;
+}
+	
+ .right-block {
+    width: 50%;
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    background-color: $blue;
+    	margin: 1em;
+}
+
 
 
 // STUPID LARGE DESKTOP BREAKPOINT
